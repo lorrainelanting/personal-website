@@ -1,0 +1,57 @@
+
+a,a:hover {
+	color: #5189ad;
+}
+
+.intro .page-scroll i {
+	-webkit-transition: all 1s ease; /* For Safari 3.1 to 6.0 */
+	transition: all 1s ease;
+}
+
+
+.intro .page-scroll i:hover {
+	text-shadow: 2px 2px 4px #000000;
+	-webkit-transition: all 1s ease; /* For Safari 3.1 to 6.0 */
+	transition: all 1s ease;
+	margin-top: 30px;
+
+}
+
+.profession a:hover {
+	font-weight: bolder;
+}
+
+.icon:hover .fa{
+	color: #888;
+}
+
+ul.nav li a:hover {
+	color: #e9ac7a;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #e9ac7a;
+}
+
+footer {
+    background-color: #5189ad;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #5189ad;
+  border-color: #5189ad;
+}
+
+#download-btn {
+	color: #fff;
+	background-color: #5189ad;
+	border-color: #5189ad;
+}
+  
+#download-btn:hover {
+    color: #fff;
+	background-color: #e9ac7a;
+	border-color: #e9ac7a;
+}
