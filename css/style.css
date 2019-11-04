@@ -385,19 +385,62 @@ hr {
 }
 
 /* ==========================
+--- Timeline
+============================= */
+
+.item {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ .card {
+    display: block;
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 5px 10px 8px 5px #d6d6d6;
+}
+
+.card-title {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #ecf8f8;
+}
+
+.card-subtitle {
+    color: rgb(146, 146, 146);
+}
+
+div .june {
+    background-color: rgb(220, 239, 245);
+}
+
+div .july {
+  background-color: rgb(220, 239, 245);
+}
+
+div .august {
+  background-color: rgb(220, 239, 245);
+}
+
+div .september {
+  background-color: rgb(220, 239, 245);
+}
+
+div .october {
+  background-color: rgb(220, 239, 245);
+}
+
+div .november {
+  background-color: rgb(220, 239, 245);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* ==========================
 --- Skills
 ============================= */
 
-
-.item {
-    margin: 10px;
-}
-
-.item img {
-    display: block;
-    width: 100%;
-    height: auto;
-}	
 
 #skills {
     padding-bottom: 120px;
@@ -632,7 +675,8 @@ Parallax
 	
 	.col-xs-6 {
 		margin-bottom: 30px;
-	}
+    }
+    
 }
 
 @media (max-width:480px) {
@@ -651,7 +695,7 @@ Parallax
 		height: 40px;
 		margin-top: 10px;
 		font-size: 20px;
-	}
+    }
 	
 }
 
@@ -691,3 +735,5 @@ Parallax
     margin-left: 0.25rem !important;
     margin-right: 0.25rem !important;
   }
+
+  
