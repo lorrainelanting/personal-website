@@ -396,8 +396,9 @@ hr {
  .card {
     display: block;
     width: 100%;
+    min-height: 120px;
     border-radius: 5%;
-    box-shadow: 5px 10px 8px 5px #d6d6d6;
+    box-shadow: 2px 4px 4px 2px #a7a7a7;
 }
 
 .card-title {
@@ -436,6 +437,32 @@ div .november {
 .card-body {
     padding: 15px;
 }
+
+.modal-header .heading {
+    color: #5189ad;
+   
+}
+
+.modal-header {
+    background-color: rgb(220, 239, 245);
+    padding-top: 30px;
+}
+
+/* Timeline Media Queries */
+@media (max-width:768px) {
+   div .card {
+        width: 100%;
+        min-height: 150px;
+    }
+}
+
+@media (max-width:480px) {
+   div .card {
+        width: 100%;
+        min-height: 160px;
+    }
+}
+
 
 /* ==========================
 --- Skills

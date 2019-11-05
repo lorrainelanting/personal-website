@@ -39,6 +39,7 @@
 	
 .owl-carousel .owl-item{
 	float: left;
+	min-height: 150px;
 }
 
 .owl-controls .owl-page,
@@ -70,3 +71,15 @@
   -ms-transform: translate3d(0,0,0);
 }
 
+/* Timeline Media Queries */
+@media (max-width:768px) {
+    .owl-wrapper {
+        min-height: 220px;
+    }
+}
+
+@media (max-width:480px) {
+    .owl-wrapper {
+        min-height: 210px;
+    }
+}
