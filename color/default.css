@@ -1,41 +1,39 @@
-
-a,a:hover {
-	color: #5189ad;
+a,
+a:hover {
+  color: #5189ad;
 }
 
-.intro .page-scroll i {
-	-webkit-transition: all 1s ease; /* For Safari 3.1 to 6.0 */
-	transition: all 1s ease;
+.home .page-scroll i {
+  -webkit-transition: all 1s ease; /* For Safari 3.1 to 6.0 */
+  transition: all 1s ease;
 }
 
-
-.intro .page-scroll i:hover {
-	text-shadow: 2px 2px 4px #000000;
-	-webkit-transition: all 1s ease; /* For Safari 3.1 to 6.0 */
-	transition: all 1s ease;
-	margin-top: 30px;
-
+.home .page-scroll i:hover {
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-transition: all 1s ease; /* For Safari 3.1 to 6.0 */
+  transition: all 1s ease;
+  margin-top: 30px;
 }
 
 .profession a:hover {
-	font-weight: bolder;
+  font-weight: bolder;
 }
 
-.icon:hover .fa{
-	color: #888;
+.icon:hover .fa {
+  color: #888;
 }
 
 ul.nav li a:hover {
-	color: #e9ac7a;
+  color: #e9ac7a;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #e9ac7a;
+  background-color: #e9ac7a;
 }
 
 footer {
-    background-color: #5189ad;
+  background-color: #5189ad;
 }
 
 .btn-skin {
@@ -45,13 +43,53 @@ footer {
 }
 
 #download-btn {
-	color: #fff;
-	background-color: #5189ad;
-	border-color: #5189ad;
+  color: #fff;
+  background-color: #5189ad;
+  border-color: #5189ad;
 }
-  
+
 #download-btn:hover {
-    color: #fff;
-	background-color: #e9ac7a;
-	border-color: #e9ac7a;
+  color: #fff;
+  background-color: #e9ac7a;
+  border-color: #e9ac7a;
+}
+
+/* Timeline */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+ul.timeline-left {
+  list-style-type: none;
+}
+ul.timeline > li > p.description,
+ul.timeline-left > li > p.description {
+  font-size: small;
+  margin-bottom: 0;
 }
